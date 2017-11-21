@@ -22,6 +22,8 @@ var datum_sail = {latitude: 1.280889, longitude: 103.852609};
 var datum_LPS = {latitude: 1.280392, longitude: 103.850435};
 var datum_bismilah = {latitude: 1.305061, longitude: 103.853657};
 
+console.log("Waiting for messages");
+
 bot.on("text", function(message) {
 	  console.log("Received message");
 	  var fromId = message.from.id;
