@@ -1,0 +1,16 @@
+{
+  "name": "locationbot",
+  "version": "1.0.0",
+  "description": "A Telegram locationbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.28.0",
+    "tgfancy": "^0.11.0"
+  }
+}
