@@ -15,7 +15,7 @@ var bot = new Tgfancy (token, {
 	}
 });
 
-changiairbot.setWebHook(externalURL + ':443/bot' + token)
+bot.setWebHook(externalURL + ':443/bot' + token)
 
 var datum_mbs = {latitude: 1.283448, longitude: 103.858977};
 var datum_sail = {latitude: 1.280889, longitude: 103.852609};
