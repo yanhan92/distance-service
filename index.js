@@ -17,5 +17,6 @@ var changiairbot = new Tgfancy (Telegram_API_KEY, {
 changiairbot.setWebHook(externalURL + ':443/bot' + Telegram_API_KEY);
 
 changiairbot.on("text", function(message){
+	console.log("Message received:" + message.text);
 	changiairbot.sendMessage(message.chat.id , "Hi");
 });
