@@ -4,9 +4,9 @@ var geolib = require('geolib');
 
 var port = process.env.PORT || 8443;
 var host = process.env.HOST;
-var externalURL = process.env.CUSTOM_ENV_VARIABLE || 'https://location-bot2.herokuapp.com' ;
+var externalURL = 'https://location-bot2.herokuapp.com' ;
 
-var token = process.env.Telegram_API_KEY;
+const token = process.env.Telegram_API_KEY;
 
 var bot = new Tgfancy (token, {
 	webHook: {
